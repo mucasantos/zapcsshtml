@@ -1,3 +1,111 @@
-html, body, ul {
+html,
+body,
+ul {
+    margin: 0;
+    padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
+
+ul {
+    list-style: none;
+}
+
+
+.container {
+    height: 100vh;
+    /* Não cria scroll*/
+    position: relative;
+    /* Os outros componentes serão relativos*/
+}
+
+/* Side bar*/
+
+.sidebar {
+    width: 410px;
+    height: 100%;
+    /*relativo ao container*/
+    display: inline-block;
+    /* para ficar do lado*/
+    position: relative;
+    /* caso tenha outr elemento dentro, a side sera a referencia*/
+}
+
+/* toolbar*/
+
+.toolbar-container {
+    width: 100%;
+    height: 60px;
+    background-color: #eee;
+}
+
+.user-photo {
+    width: 40px;
+    border-radius: 50%;
+    /* imagem redonda*/
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    background-color: #ccc;
+
+}
+
+.auxicons-toolbar-container {
+    float: right;
+    height: 60px;
+    line-height: 60px;
+    padding-right: 20px;
+}
+
+.auxicons-toolbar-container i {
+    color: #80868A;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+/* notification container*/
+
+.nofication-container {
+    width: 100%;
+    height: 90px;
+    padding-top: 23px;
+    padding-left: 80px;
+    background-color: rgb(53, 160, 192);
+    position: relative;
+    box-sizing: border-box;
+}
+
+
+.fas.fa-bell-slash {
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    font-size: 18px;
+    color: #9de1fe;
+    background-color: #f5fcff;
+    position: absolute;
+    top: 20px ;
+    left: 15px;
+}
+
+.nofication-container p {
+    margin: 0;
+}
+
+.nofication-container .receive-notification {
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+.activate-notification {
+    font-size: 13px;
+
+}
+
+
+/* Side bar*/
+
+
+/* Side bar*/
