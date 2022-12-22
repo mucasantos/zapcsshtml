@@ -225,3 +225,53 @@ ul {
     float: right;
 
 }
+/* chat*/
+
+.chat-container {
+    position: absolute;
+    top: 0;
+    left: 410px;
+    width: calc(100% - 410px);
+    height: 100vh;
+    background-color: #80868A;
+}
+
+/* chat navbar*/
+
+.chat-navbar {
+    height: 60px;
+    background-color: #eee;
+    border-left: 1px solid #ddd;
+    padding-left: 75px;
+
+}
+
+.chat-navbar p{
+    margin: 0;
+}
+.contactinfo-container{
+    display: inline-block;
+}
+
+.contactinfo-container .user-name{
+    font-size: 16px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.chattools-container {
+    float: right;
+    height: 60px;
+    line-height: 60px;
+    margin-right: 20px;
+
+}
+
+.chattools-container li{
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 18px;
+    color: #80868A;
+    cursor: pointer;
+}
